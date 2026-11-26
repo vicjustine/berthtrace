@@ -9,7 +9,9 @@ The service waits for a debugger before it starts, so you can attach and watch
 the tally as it moves:
 
 ```
-python -m berthtrace
+python3 -m venv .venv
+.venv/bin/pip install -e .
+.venv/bin/python -m berthtrace
 ```
 
 It prints `dispatch waiting for debugger on port 5678...` and pauses until a
