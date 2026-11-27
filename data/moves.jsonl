@@ -59,7 +59,7 @@
 {"berth": "B1", "containers": 80, "direction": "in"}
 {"berth": "B1", "containers": 60, "direction": "out"}
 {"berth": "B1", "containers": 80, "direction": "in"}
-{"berth": "B2", "containers": 9000, "direction": "out"}
+{"berth": "B2", "containers": 60, "direction": "out"}
 {"berth": "B2", "containers": 40, "direction": "in"}
 {"berth": "B3", "containers": 40, "direction": "in"}
 {"berth": "B3", "containers": 60, "direction": "out"}
