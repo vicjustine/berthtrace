@@ -28,3 +28,8 @@ Operations report that the end-of-run summary is wrong: **B2 finishes on a
 negative count**, which is impossible, and the busiest-berth figure looks off
 as a result. The feed is long enough that stepping through it by hand is not
 practical.
+
+
+## 
+Before the fix, that row would have been applied quietly and shown up only as a strange number in a summary nobody really checks. 
+Now it stops the run and names the berth, the amount and what was actually there. 
