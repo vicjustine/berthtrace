@@ -25,7 +25,7 @@ class Tally:
                 raise ValueError(
                     f"{move.berth}: cannot remove {move.containers} from {current}"
                 )
-            self.count[move.berth] = current - move.containers
+            self.counts[move.berth] = current - move.containers
 
     def total(self) -> int:
         return sum(self.counts.values())
