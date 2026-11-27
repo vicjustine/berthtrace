@@ -21,10 +21,15 @@ class Tally:
         if move.direction == "in":
             self.counts[move.berth] = current + move.containers
         else:
-            self.counts[move.berth] = current - move.containers
+            if move.containers > current: 
+                raise ValueError(
+                    f"{move.berth}: cannot remove {move.containers} from {current}"
+                )
+            self.count[move.berth] = current - move.containers
 
     def total(self) -> int:
         return sum(self.counts.values())
 
     def busiest(self) -> str:
         return max(self.counts, key=lambda b: self.counts[b])
+
