@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: berthtrace
+Version: 0.1.0
+Summary: Dispatch service keeping a rolling tally of containers per berth
+Requires-Python: >=3.11
+Requires-Dist: debugpy==1.8.22

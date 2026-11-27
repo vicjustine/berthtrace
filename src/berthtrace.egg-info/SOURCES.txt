@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/berthtrace/__main__.py
+src/berthtrace/dispatch.py
+src/berthtrace/tally.py
+src/berthtrace.egg-info/PKG-INFO
+src/berthtrace.egg-info/SOURCES.txt
+src/berthtrace.egg-info/dependency_links.txt
+src/berthtrace.egg-info/requires.txt
+src/berthtrace.egg-info/top_level.txt
